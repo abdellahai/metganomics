@@ -10,5 +10,5 @@ Pandas >= 1.2
 # Use
 Just write the command as bellow 
 
-`python3 hits_sort.py email@email.com input_file.gff output_file.tsv`
+`python3 hits_sort.py input_file.gff output_file.tsv email@email.com`
  make sure that the path of the input and output are corrects

@@ -17,10 +17,10 @@ def get_tax_data(taxid):
     search = Entrez.efetch(id = taxid, db = "taxonomy", retmode = "xml")
     return Entrez.read(search)
 ###############################################
-Entrez.email = sys.argv[2]
+Entrez.email = sys.argv[3]
 
-in_file = sys.argv[0]
-out_file = sys.argv[1]
+in_file = sys.argv[1]
+out_file = sys.argv[2]
 print('Reading input file .....')
 with open (in_file,'r', encoding='utf-8') as inpt:
   sps = []

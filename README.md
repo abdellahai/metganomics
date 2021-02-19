@@ -4,8 +4,8 @@ This code does not need to be installed, you can just run it from the command li
 ## Dependencies
 
 Python >= 3.7
-Biopython >=
-Pandas >=
+Biopython >=1.78
+Pandas >= 1.2
 
 # Use
 Just write the command as bellow 
